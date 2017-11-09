@@ -3,5 +3,28 @@
 box-sizing: border-box;
 margin:0;
 padding:0;
+/*border: 5px solid red;*/
+justify-content: space-between; /*Puts an even amount of spacing between the far left stuff and far right stuff*/
+}
 
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  background: orange;
+  padding-left: 1rem 0.5rem;
+}
+
+.main-nav a{
+  text-decloration: none;
+  color: #fff;
+  font-size: 1.3rem;
+}
+
+.main-nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.main-nav-list li{
+  margin: 0 10px;
 }
