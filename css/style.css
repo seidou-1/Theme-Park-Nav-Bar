@@ -28,3 +28,9 @@ justify-content: space-between; /*Puts an even amount of spacing between the far
 .main-nav-list li{
   margin: 0 10px;
 }
+
+.banner{
+  text-align: center;
+  padding: 2rem 0;
+  background: teal;
+}
